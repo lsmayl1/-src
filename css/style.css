@@ -107,3 +107,51 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		margin: 20px 0px 0px  15px;
 	}
 }
+/* 				main                */
+
+.main {
+}
+.main__container {
+}
+.main_text {
+	
+	
+	position: absolute;
+	margin: 90px 0px 0px 0px;
+}
+.main_title {
+	font-size: 48px;
+	font-family: Mulish;
+	font-weight: bold;
+	line-height: 56px;
+}
+.upper_title {
+	color: #7D7987;
+	font-family: Mulish;
+	font-weight: 300;
+	font-size: 21px;
+	margin: 57px 0px 0px 0px;
+}
+.main_image {
+	display: flex;	
+	justify-content: flex-end;
+	margin: 50px 0px 0px 0px;
+}
+@media (max-width:1250px) {
+	.main_text{
+		padding: 0px 20px;
+		z-index:50;
+	
+	}
+	.main_title{
+			font-size: 24px;
+	}
+	.main_image{
+	position: absolute;
+	z-index:0;
+		width: 250px;
+		height: 200px;
+		left: 25%;
+	}
+	
+}	
